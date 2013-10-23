@@ -1,0 +1,27 @@
+Patulea Ionut
+313CA
+
+README pentru tema 2 Metode Numerice:
+
+TASK1: Factorizare ortogonala
+
+		Am folosit un Gram Schmitd modificat facut la laborator dupa formula si un algoritm de 
+rezolvare a unui sistem superior triunghilar.
+
+TASK2: Valori si vectori proprii
+
+		Am folosit o metoda iterativa cu ajutorul algoritmului Gram Schmitd modificatde la TASK1 
+plus algoritm de aproximare a valorilor priprii pe diagonala si a unei matrici cu vectori proprii 
+pe coloane.
+
+TASK3: Valori proprii si cutremure
+
+		Am creat matricea dupa formula dedusa din pdf, am normat vectorii scosi cu ajutorul eig 
+si am format frecventele. Functia de afisare nu are nimic special iar in functia myPlot, cu aju-
+torul subplot si plot am desenat graficele.
+
+TASK4: Predictie liniara
+
+		Am ales parametrul p egal cu 20 deoarece comprimarea este buna iar sunetul se intelege 
+destul de bine. Formatul de reprezentare al fisierului comprimat este de tip SUNET iar metoda 
+de aflare a coeficientilor este Levinson-Durbin.
